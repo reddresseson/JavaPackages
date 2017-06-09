@@ -7,9 +7,6 @@
 이러한 경험을 떠올리며, 누군가는 이 페이지를 참고하여 자바 패키지를 자유자재로 사용할 수 있길 바라며 자바 패키지 라이브러리를 번역하고자 합니다. 그뿐만 아니라 번역에 참여하는 저희도 자바를 공부하는 데 큰 도움을 얻을 수 있으리라 기대됩니다.
 
 
-출처 : [API specification for the Java™ Platform](http://docs.oracle.com/javase/8/docs/api/)
-
-
 ***
 # 패키지 설명 :pencil2:
 
