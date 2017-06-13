@@ -16,7 +16,57 @@
 | 패키지 이름 | 설명 |
 | ------------- | ------------- |
 | 박진희 | :small_red_triangle_down: |
-| java.applet  | 설명 |
+| java.applet | 애플릿의 생성에 필요한 클래스와 애플릿이 애플릿 컨텍스트와 통신하기 위해서 사용하는 클래스를 제공합니다. |
+| java.awt | 사용자 인터페이스를 작성하고 그래픽 및 이미지를 페인팅하기위한 모든 클래스를 포함합니다. |
+| java.awt.color | 칼라 스페이스의 클래스를 제공합니다. |
+| java.awt.datatransfer | 응용 프로그램간에 데이터를 전송하기위한 인터페이스와 클래스를 제공합니다. |
+| java.awt.dnd | 드래그 앤 드롭은 많은 그래픽 사용자 인터페이스 시스템에서 발견되는 직접 조작 제스처로서 GUI의 표시 요소와 논리적으로 연관된 두 엔티티간에 정보를 전송하는 메커니즘을 제공합니다. |
+| java.awt.event | AWT 컴퍼넌트에 의해 방아쇠되는 각종의 이벤트를 처리하기위한 인터페이스와 클래스를 제공합니다. |
+| java.awt.font | 폰트에 관한 클래스 및 인터페이스를 제공합니다. |
+| java.awt.geom | 2 차원 지오메트리에 관련한 객체에 대한 조작을 정의 및 실행하기위한 Java 2D 클래스를 제공합니다. |
+| java.awt.im | 인풋 메소드 체제의 클래스 및 인터페이스를 제공합니다. |
+| java.awt.im.spi | 임의의 Java 실행 환경으로 사용할 수있는 인풋 메소드의 개발을 가능하게하는 인터페이스를 제공합니다. |
+| java.awt.image | 이미지의 작성 및 변경을위한 클래스를 제공합니다. |
+| java.awt.image.renderable | 렌더링에 의존하지 않는 이미지를 생성하기위한 클래스 및 인터페이스를 제공합니다. |
+| java.awt.print | 일반 인쇄 API 용 클래스 및 인터페이스를 제공합니다. |
+| java.beans | Bean (JavaBeans ™ 아키텍처 기반의 구성 요소) 개발과 관련된 클래스가 들어 있습니다. |
+| java.beans.beancontext | Bean의 문맥에 관련하는 클래스 및 인터페이스를 제공합니다. |
+| java.io | 데이터 스트림, 직렬화 및 파일 시스템을 통한 시스템 입력 및 출력을 제공합니다. |
+| java.lang | Java 프로그램 언어의 기본 설계 클래스를 제공합니다. |
+| java.lang.annotation | Java 프로그램 언어의 주석 기능을 서포트합니다. |
+| java.lang.instrument | Java 프로그래밍 언어 에이전트가 JVM에서 실행되는 프로그램을 계측 할 수있게 해주는 서비스를 제공합니다. |
+| java.lang.invoke | java.lang.invoke 패키지에는, Java 코어 클래스 라이브러리 및 가상 머신이 직접 제공하는 동적 언어 지원이 포함되어 있습니다. |
+| java.lang.management | Java 가상 머신 및 Java 런타임의 다른 구성 요소를 모니터링하고 관리하기위한 관리 인터페이스를 제공합니다. |
+| java.lang.ref | 가비지 컬렉터와의 제한된 상호 작용을 지원하는 참조 객체 클래스를 제공합니다. |
+| java.lang.reflect | 클래스 및 객체에 대한 반사 정보를 얻기위한 클래스 및 인터페이스를 제공합니다. |
+| java.math | 임의 정밀도의 정수 연산 (BigInteger) 및 임의 정밀도의 10 진법 연산 (BigDecimal)을 실행하기위한 클래스를 제공합니다. |
+| java.net | 네트워킹 응용 프로그램을 구현하기위한 클래스를 제공합니다. |
+| java.nio | 데이터의 컨테이너 인 버퍼를 정의하고 다른 NIO 패키지의 개요를 제공합니다. |
+| java.nio.channels | 파일 및 소켓과 같이 I / O 작업을 수행 할 수있는 엔터티에 대한 연결을 나타내는 채널을 정의합니다. 다중화 된 비 차단 I / O 작업을위한 선택기를 정의합니다. |
+| java.nio.channels.spi | java.nio.channels 패키지의 서비스 프로 바이더 클래스. |
+| java.nio.charset | 바이트와 유니 코드 문자 간 변환을위한 문자 세트, 디코더 및 인코더를 정의합니다. |
+| java.nio.charset.spi | java.nio.charset 패키지의 서비스 프로 바이더 클래스. |
+| java.nio.file | Java 가상 머신이 파일, 파일 속성 및 파일 시스템에 액세스 할 수 있도록 인터페이스 및 클래스를 정의합니다. |
+| java.nio.file.attribute | 파일 및 파일 시스템 속성에 대한 액세스를 제공하는 인터페이스 및 클래스. |
+| java.nio.file.spi | java.nio.file 패키지의 서비스 프로 바이더 클래스. |
+| java.rmi |RMI 패키지를 제공합니다. |
+| java.rmi.activation | RMI 객체 기동을 지원합니다. |
+| java.rmi.dgc | RMI 분산 가베지 컬렉션 (DGC)의 클래스 및 인터페이스를 제공합니다. |
+| java.rmi.registry | RMI 레지스트리의 클래스 및 2 개의 인터페이스를 제공합니다. |
+| java.rmi.server | RMI의 서버 측을 서포트하는 클래스 및 인터페이스를 제공합니다. |
+| java.security | 보안 프레임 워크의 클래스와 인터페이스를 제공합니다. |
+| java.security.acl | 이 패키지의 클래스 및 인터페이스는, java.security 패키지의 클래스에 의해 옮겨 놓을 수있었습니다. |
+| java.security.cert | 인증서, 인증서 해지 목록 (CRL) 및 인증서 경로를 구문 분석하고 관리하기위한 클래스와 인터페이스를 제공합니다. |
+| java.security.interfaces | NIST의 FIPS-186에 정의 된대로 RSA Laboratory Technical Note PKCS # 1 및 DSA (Digital Signature Algorithm) 키에 정의 된 RSA (Rivest, Shamir 및 Adleman AsymmetricCipher 알고리즘) 키를 생성하기위한 인터페이스를 제공합니다. |
+| java.security.spec | 키 사양 및 알고리즘 파라미터 사양의 클래스 및 인터페이스를 제공합니다. |
+| java.sql | JavaTM 프로그램 언어를 사용해 데이터 소스 (일반적으로 관계형 데이타베이스)에 포함 된 데이터에 액세스 해 처리하는 API를 제공합니다. |
+| java.text | 자연어에 관계없이 텍스트, 날짜, 숫자 및 메시지를 처리하기위한 클래스 및 인터페이스를 제공합니다. |
+| java.text.spi | java.text 패키지 내의 클래스의 서비스 프로 바이더 클래스 |
+| java.time | 날짜, 시간, 순간 및 기간에 대한 기본 API입니다. |
+| java.time.chrono | 디폴트의 ISO 이외의 달력 시스템의 범용 API |
+| java.time.format | 날짜와 시간을 인쇄하고 구문 분석하는 클래스를 제공합니다. | 
+| java.time.temporal | 필드와 단위 및 날짜 시간 조정자를 사용하여 날짜와 시간에 액세스합니다. |
+| java.time.zone | 시간대 및 규칙 지원.|
 | 고유빈 | :small_red_triangle_down: |
 | java.util | 컬렉션 프레임 워크, legacy collection classes, 이벤트 모델, 날짜 및 시간 기능, 국제화 및 기타 유틸리티 클래스를 포함한다. |
 | java.util.concurrent | 유틸리티 클래스는 동시 프로그래밍에 유용하다.|
