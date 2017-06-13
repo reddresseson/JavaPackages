@@ -18,7 +18,56 @@
 | 박진희 | :small_red_triangle_down: |
 | java.applet  | 설명 |
 | 고유빈 | :small_red_triangle_down: |
-| java.util | 설명 |
+| java.util | 컬렉션 프레임 워크, legacy collection classes, 이벤트 모델, 날짜 및 시간 기능, 국제화 및 기타 유틸리티 클래스를 포함한다. |
+| java.util.concurrent | 유틸리티 클래스는 동시 프로그래밍에 유용하다.|
+| java.util.concurrent.atomic | 단일 변수에서 잠금 없는  thread-safe programming을 지원하는 클래스의 작은 툴킷이다.|
+| java.util.concurrent.locks | 내장 된 동기화 및 모니터와는 다른 조건으로 잠그고 기다리는 프레임 워크를 제공하는 인터페이스 및 클래스이다.|
+| java.util.function | 함수 인터페이스는 람다 식과 메서드 참조에 대한 대상 유형을 제공한다.|
+| java.util.jar | JAR (Java ARchive) 파일 형식 읽기 및 쓰기 클래스를 제공합니다. 이 형식은 표준 ZIP 파일 형식과 선택적 manifest file을 기반한다.|
+| java.util.logging | JavaTM 2 플랫폼의 core logging 기능의 클래스 및 인터페이스를 제공한다.|
+| java.util.prefs | 응용 프로그램에서 사용자 및 시스템 환경 설정 및 구성 데이터를 저장하고 검색 할 수 있다. |
+| java.util.regex | 정규 표현식으로 지정된 패턴과 문자열을 일치시키는 클래스이다. |
+| java.util.spi |  |
+| java.util | 패키지의 서비스 공급자 클래스이다.|
+| java.util.stream | 축소 변환과 같은 스트림 기능 스타일 작업을 지원하는 클래스이다.|
+| java.util.zip | 표준 ZIP 및 GZIP 파일 형식 읽기 및 쓰기 클래스를 제공한다.|
+| javax.accessibility | 사용자 인터페이스 구성 요소와 이러한 구성 요소에 대한 접근을 제공하는 보조 기술 간의 계약을 정의한다.|
+| javax.activation |   |
+| javax.activity | 비정렬화 중에 ORB 기계에 의한 활동 서비스 관련 예외가 포함된다.|
+| javax.annotation |  |
+| javax.annotation.processing | 주석 처리기를 선언하고 주석 처리기가 주석 처리 도구 환경과 통신 할 수 있게 해주는 기능을 한다.|
+| javax.crypto | 암호화 조작을 위한 클래스 및 인터페이스를 제공한다.|
+| javax.crypto.interfaces | RSA Laboratories의 PKCS # 3에 정의 된 Diffie-Hellman key를 위한 인터페이스를 제공한다.|
+| javax.crypto.spec | key specifications 와 algorithm parameter specifications을 위한 클래스 및 인터페이스를 제공한다.|
+| javax.imageio | Java Image 입출력 API의 주요 패키지이다.|
+| javax.imageio.event | 이미지 읽기 및 쓰기 중 이벤트의 동기화 통지를 처리하는 Java 이미지 입출력 API 패키지이다.
+| javax.imageio.metadata | 메타 데이타의 읽기 및 쓰기를 처리하는 Java Image 입출력 API 패키지이다.|
+| javax.imageio.plugins.bmp | 내장 BMP 플러그 인에서 사용하는 공용 클래스가 들어있는 패키지이다.|
+| javax.imageio.plugins.jpeg | 내장 된 JPEG 플러그인을 지원하는 클래스이다.|
+| javax.imageio.spi | readers, Writers, 트랜스 코더, 스트림,  runtime registry를 위한 플러그 인 인터페이스를 포함한 Java 이미지 입출력 API 패키지이다.|
+| javax.imageio.stream | 파일 및 스트림으로부터의 저레벨을 다루는 Java 이미지 입출력 API의 패키지이다.|
+| javax.jws |  |
+| javax.jws.soap |  |
+| javax.lang.model | 자바 프로그래밍 언어를 모델링하는 데 사용되는 패키지의 클래스와 계층이다.|
+| javax.lang.model.element | Java 프로그램 언어의 요소를 모델화하기 위해서 사용되는 인터페이스이다.| 
+| javax.lang.model.type | Java 프로그래밍 언어 유형을 모델링하는 데 사용되는 인터페이스이다.|
+| javax.lang.model.util | 프로그램 요소와 유형을 처리하는 데 도움이 되는 유틸리티이다.|
+| javax.management | Java Management Extension의 핵심 클래스를 제공한다.|
+| javax.management.loading | 진보된 동적로딩 클래스를 제공한다.|
+| javax.management.modelmbean | ModelMBean 클래스의 정의를 제공한다.|
+| javax.management.monitor | 모니터 클래스의 정의를 제공한다.|
+| javax.management.openmbean | open data type 및 Open MBean 기술자 클래스를 제공한다.|
+| javax.management.relation | 관계 서비스 정의를 제공한다.|
+| javax.management.remote | JMX MBean 서버에 원격 접속하기위한 인터페이스이다.|
+| javax.management.remote.rmi | RMI 연결기는 RMI를 사용하여 클라이언트 요청을 원격 MBean 서버로 전송하는 JMX 원격 API 용 커넥터이다.|
+| javax.management.timer | Timer MBean의 정의를 제공한다.|
+| javax.naming | naming services에 접근하기 위해 클래스 및 인터페이스를 제공한다.|
+| javax.naming.directory | javax.naming 패키지를 확장하여 디렉토리 서비스 접근 기능을 제공한다.|
+| javax.naming.event | 이름 지정 및 디렉토리 서비스에 접근 할 때 이벤트 알림을 지원한다.|
+| javax.naming.ldap | LDAPv3 확장 작업 및 컨트롤을 지원한다.|
+| javax.naming.spi |  |
+| javax.net | 네트워킹 응용 프로그램을 위한 클래스를 제공한다.|
+| javax.net.ssl | secure socket 패키지를 위한 클래스를 제공한다.|
 | 김유리 | :small_red_triangle_down: |
 | javax.print | Java Print Service API를 위한 기본 클래스와 인터페이스를 제공한다. |
 | javax.print.attribute | Java Print Service에 해당하는 속성의 유형과, 속성 집합을 수집하는 방법을 설명하는 클래스와 인터페이스를 제공한다. |
