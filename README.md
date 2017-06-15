@@ -136,6 +136,34 @@
 | javax.security.cert | public key 인증서에 대한 클래스를 제공한다. |
 | javax.security.sasl | SASL을 지원하는 클래스와 인터페이스를 포함한다. |
 | javax.sound.midi | 입출력, 순서화, MIDI(Musical Instrument Digital Interface)의 합성을 위한 인터페이스와 클래스를 제공한다. |
+| javax.sound.midi.spi | 새로운 MIDI 장치,MIDI 파일 판독기 및 작가, 또는 음향 뱅크 판독기를 제공할 때 서비스 제공자가 구현할 수 있는 인터페이스를 제공한다. |
+| javax.sound.sampled | 샘플링된 오디오 데이터의 캡처, 처리 및 재생을 위한 인터페이스 및 클래스를 제공한다. |
+| javax.sound.sampled.spi | 새로운 오디오 장치, 사운드 파일 판독기 및 오디오 형식 변환기를 제공할 때 서비스 공급자에 대한 추상적인 수업을 제공한다. |
+| javax.sql | Java 프로그래밍 언어에서 서버 측 데이터 소스 액세스 및 처리를 위한 API를 제공한다. |
+| javax.sql.rowset | JDBC RowSet 구현을 위한 표준 인터페이스 및 기본 클래스. |
+| javax.sql.rowset.serial | Java프로그래밍 언어에서 SQL유형과 데이터 유형 간의 연동을 허용하는 유틸리티 클래스를 제공한다. |
+| javax.sql.rowset.spi | 타사 벤더가 동기화 제공 업체의 구현에 사용해야 하는 표준 클래스 및 인터페이스. |
+| javax.swing | 가능한 한 모든 플랫폼에서 동일한 수준으로 작업할 수 있는 "lightweight"(모든 자바 언어)구성 요소 세트를 제공한다. |
+| javax.swing.border | swing 구성 요소에 특화된 경계를 그리기 위한 강의 및 인터페이스를 제공한다. |
+| javax.swing.colorchooser | JColorChooser 구성 요소가 사용하는 클래스 및 인터페이스를 포함한다. |
+| javax.swing.event | swing 구성 요소에 의해 점화된 이벤트를 제공한다. |
+| javax.swing.filechooser | JFileChooser 구성 요소가 사용하는 클래스 및 인터페이스를 포함한다. |
+| javax.swing.plaf | 플러그 앤 플레이 방식의 기능을 제공하는 단일 인터페이스를 제공하는 단일 인터페이스와 많은 추상화 클래스를 제공한다. |
+| javax.swing.plaf.basic | 기본 모양과 느낌에 따라 사용자 인터페이스 개체를 제공한다. |
+| javax.swing.plaf.metal | Java모양의 사용자 인터페이스 개체에 따라 기본 모양과 느낌을 제공하는 사용자 인터페이스 객체를 제공한다.(단, Metal이라는 이름의 개체만) |
+| javax.swing.plaf.multi | 두개 이상의 모양과 느낌을 결합한 사용자 인터페이스 개체를 제공한다. |
+| javax.swing.plaf.nimbus | 교차 플랫폼 Nimbus 룩과 느낌에 따라 구축된 사용자 인터페이스 개체를 제공한다. |
+| javax.swing.plaf.synth | Synth는 그림을 선택할 수 있는 스킨을 고를 수 있다.|
+| javax.swing.table | javax.swing.JTable를 처리하기 위한 클래스 및 인터페이스 제공한다. |
+| javax.swing.text | 편집 가능하고 편집 가능한 텍스트 구성 요소를 다루는 클래스 및 인터페이스를 제공한다. |
+| javax.swing.text.html | HTML텍스트 편집기를 생성하기 위한 클래스 구분 및 지원 클래스를 제공한다. |
+| javax.swing.text.html.parser | 지원 클래스와 함께 기본 HTML구문 분석기를 제공한다. |
+| javax.swing.text.rtf | 텍스트 편집기 텍스트 편집을 위한 클래스( RTFEditorKit)를 제공한다. |
+| javax.swing.tree | javax.swing.JTree를 처리하기 위한 클래스 및 인터페이스를 제공한다. |
+| javax.swing.undo | 개발자가 텍스트 편집기와 같은 응용 프로그램에 대한 지원을 제공할 수 있도록 허용한다. |
+| javax.tools | 프로그램에서 호출할 수 있는 도구를 위한 인터페이스를 제공한다. (예를 들면 compilers) |
+| javax.transaction | Unmarshalling이 진행되는 동안 ORB 기계에 의해 제외 된 세가지 예외를 포함한다. |
+| javax.transaction.xa | 트랜잭션 관리자와 리소스 관리자 간의 계약을 정의하는 API를 제공하여 트랜잭션 관리자가 트랜잭션 기반 트랜잭션에서 리소스 개체(리소스 매니저 드라이버에 의해 제공되는)를 수집하고 재배치할 수 있도록 한다. |
 | 나은찬 | :small_red_triangle_down: |
 | javax.xml |  |
 | javax.xml.bind | 클라이언트 애플리케이션에 대한 런타임 바인딩 프레임워크를 제공합니다. |
